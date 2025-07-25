@@ -1,0 +1,104 @@
+
+        :root {
+            --primary-color: #248f59;
+            --secondary-color: #e58a3c;
+            --dark-color: #2c3e50;
+            --text-color: #333333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        
+        .explore-section {
+            background: #248f59;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .explore-content {
+            max-width: 800px;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .lead-text {
+            font-size: 1.5rem;
+            margin-bottom: 50px;
+            line-height: 1.6;
+        }
+        
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .action-btn {
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .primary-btn {
+            background-color: var(--secondary-color);
+            color: white;
+            border: 2px solid var(--secondary-color);
+        }
+        
+        .primary-btn:hover {
+            background-color: #c0392b;
+            border-color: #c0392b;
+            color: white;
+            transform: translateY(-3px);
+        }
+        
+        .secondary-btn {
+            background-color: #6fbd96;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .secondary-btn:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .lead-text {
+                font-size: 1.2rem;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .action-btn {
+                width: 100%;
+            }
+        }

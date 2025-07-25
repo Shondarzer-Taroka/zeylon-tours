@@ -21,6 +21,7 @@
 .story-box {
       width: 50%;
   flex: 2;
+  color: black;
 }
 
 .mission-box {
