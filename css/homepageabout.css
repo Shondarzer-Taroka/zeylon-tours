@@ -1,0 +1,53 @@
+  
+    .about-section {
+      padding: 60px 0;
+      background-color: #fff;
+    }
+
+    .about-section h2 {
+      font-weight: 700;
+      color: #248f59;
+    }
+
+    .about-section p {
+      color: #666;
+      font-size: 1.05rem;
+    }
+
+    .stats .stat-number {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #f76b1c;
+    }
+
+    .stats .stat-label {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .learn-more-link {
+      color: #248f59;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .learn-more-link:hover {
+      text-decoration: underline;
+    }
+
+    .about-img {
+      border-radius: 20px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        text-align: center;
+      }
+
+      .stats {
+        justify-content: center !important;
+      }
+    }

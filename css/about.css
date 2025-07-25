@@ -1,0 +1,29 @@
+ .hero-section {
+     background-color: #217b56;
+     color: #dcdcdc;
+     text-align: center;
+     padding: 100px 20px;
+ }
+
+ .hero-title {
+     font-size: 3.5rem;
+     font-weight: 700;
+     font-family: "Georgia", serif;
+     margin-bottom: 1rem;
+ }
+
+ .hero-subtitle {
+     font-size: 1.5rem;
+     font-weight: 500;
+     color: #c8c8c8;
+ }
+
+ @media (max-width: 768px) {
+     .hero-title {
+         font-size: 2.5rem;
+     }
+
+     .hero-subtitle {
+         font-size: 1.2rem;
+     }
+ }
