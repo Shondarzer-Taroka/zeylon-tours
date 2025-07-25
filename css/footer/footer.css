@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.footer {
+  background-color: #228b5e;
+  color: #fff;
+  padding: 60px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1 1 220px;
+}
+
+.footer-section h2 {
+     font-size: 1.125rem;
+    line-height: 1.75rem;
+
+  margin-bottom: 15px;
+}
+
+.footer-section h2 .highlight {
+  color: #ff702a;
+}
+
+.footer-section h3 {
+  color: #fba542;
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section li {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #ffffffd9;
+}
+
+.footer-section li:hover{
+    color: #fba542;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  background-color: #ffffff26;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons i:hover {
+  background-color: #fba542;
+}
+
+.footer-section i {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.whatsapp-btn i {
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ffffff33;
+  margin-top: 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-inline: auto;
+  color: #ffffffd9;
+  font-size: 14px;
+}
+
+.footer-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ffffffd9;
+}
