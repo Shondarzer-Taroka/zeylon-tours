@@ -6,6 +6,13 @@
   color: #333;
 } */
 
+
+
+
+
+
+
+
 .why-choose {
     background-color: #f5f3f0;
     padding: 60px 20px;
@@ -63,4 +70,57 @@
     font-size: 16px;
     color: #666;
     line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (phones) */
+@media (max-width: 767px) {
+  .about-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .story-box,
+  .mission-box {
+    width: 100%;
+  }
+
+  .contact-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .choose-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-section {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .story-box,
+  .mission-box {
+    width: 100%;
+  }
+
+  .contact-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .choose-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

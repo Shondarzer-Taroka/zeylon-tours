@@ -52,3 +52,55 @@ p {
     /* align-items: center; */
     gap: 4px;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+  .about-section {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .story-box,
+  .mission-box {
+    width: 100%;
+  }
+
+  .mission-box {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-box {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-box {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

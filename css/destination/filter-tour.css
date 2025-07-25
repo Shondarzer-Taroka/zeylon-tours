@@ -1,11 +1,15 @@
-body {
+/* body {
   margin: 0;
   padding: 40px;
   font-family: 'Open Sans', sans-serif;
   background-color: #f9f8f7;
-}
+} */
+
+
 
 .filter-container {
+  max-width: 1220px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,4 +58,79 @@ body {
   color: #fff;
   font-weight: 600;
   border: none;
+}
+
+
+
+/* Shared Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .about-section {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .story-box,
+  .mission-box {
+    width: 100%;
+  }
+
+  .choose-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filter-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .filter-buttons {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .choose-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .choose-title {
+    font-size: 26px;
+  }
+
+  .choose-subtitle {
+    font-size: 16px;
+  }
+
+  .filter-container {
+    padding: 20px 15px;
+  }
+
+  .filter-btn {
+    font-size: 14px;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .choose-title {
+    font-size: 22px;
+  }
+
+  .choose-subtitle {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-desc {
+    font-size: 14px;
+  }
+
+  .filter-btn {
+    font-size: 13px;
+    padding: 0.5rem 1rem;
+  }
 }
