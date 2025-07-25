@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+.timeline-section {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.title {
+  color: #007a38;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 20px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: #d3eadd;
+  z-index: 0;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 40px auto;
+  padding-top: 20px;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  width: 2px;
+  height: calc(100% - 12px);
+  background-color: #d3eadd;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.dot {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  background-color: #007a38;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.card-inner {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.card-inner .left {
+  text-align: left;
+  font-size: 1rem;
+  color: #444;
+}
+
+.card-inner .right {
+  font-weight: 700;
+  color: #f15a24;
+  font-size: 1.2rem;
+}
