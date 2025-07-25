@@ -1,0 +1,155 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f8f6;
+  color: #333;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 20px;
+  justify-content: center;
+}
+
+.message-area,
+.office-area {
+  flex: 1 1 450px;
+  max-width: 550px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.green {
+  color: #2b8c5f;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.form-box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  padding: 30px;
+  text-align: center;
+}
+
+.google-placeholder {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.file-error {
+  font-size: 14px;
+  color: #444;
+  margin-top: 10px;
+}
+
+.file-error strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.file-footer {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+}
+
+.office-box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  padding: 25px 30px;
+}
+
+.office-title {
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.office-text {
+  margin: 0 0 20px;
+  line-height: 1.6;
+  font-size: 14px;
+  color: #555;
+}
+
+.office-text em {
+  font-size: 13px;
+  color: #888;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+.orange {
+  color: #f47a32;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.quick-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quick-box {
+  padding: 12px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2b8c5f;
+}
+
+.light-green {
+  background-color: #e4faea;
+}
+
+.light-green-alt {
+  background-color: #f1f7f4;
+}
+
+.emergency-box {
+  background-color: #fff0e8;
+  border: 1px solid #ffd9c9;
+  border-radius: 8px;
+  padding: 20px 25px;
+  margin-top: 25px;
+}
+
+.emergency-title {
+  color: #d35400;
+  margin: 0 0 10px;
+}
+
+.emergency-number {
+  color: #f47a32;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.small-note {
+  font-size: 13px;
+  color: #888;
+  margin-top: 5px;
+}
