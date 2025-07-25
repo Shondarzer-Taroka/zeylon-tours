@@ -1,0 +1,74 @@
+.destination-content-section {
+    height: 300px;
+    background: hsl(150, 50%, 45%);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: .1;
+}
+
+.destination-content-section h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.custom-tour-button{
+    background-color: #fa8938;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ready-hero-section {
+  background: #2e9f6e;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+}
+
+.ready-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.ready-hero-subtitle {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.ready-hero-button {
+  background: linear-gradient(to right, #208a60, #f0932b);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.ready-hero-button:hover {
+  opacity: 0.9;
+}
