@@ -24,3 +24,61 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+
+
+
+
+
+
+
+
+
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const scrollElements = document.querySelectorAll(".scroll-fade-up");
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    scrollElements.forEach(el => observer.observe(el));
+  });
+
+
+
+
+
+  const boxes = document.querySelectorAll('.box');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+
+          if (el.classList.contains('from-up')) {
+            el.classList.add('fade-up');
+          } else if (el.classList.contains('from-left')) {
+            el.classList.add('fade-left');
+          } else if (el.classList.contains('from-right')) {
+            el.classList.add('fade-right');
+          } else if (el.classList.contains('from-down')) {
+            el.classList.add('fade-down');
+          }
+
+          el.classList.remove('hidden');
+        }
+      });
+    }, {
+      threshold: 0.2,
+    });
+
+    boxes.forEach(box => observer.observe(box));
+
+
+

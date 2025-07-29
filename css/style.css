@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+   margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+   
+    
 }
 :root {
     --primary-color: #248f59;
@@ -10,12 +23,6 @@
     --light-color: #f8f9fa;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    line-height: 1.6;
-    color: #333;
-}
 
 a {
     text-decoration: none;
@@ -34,6 +41,8 @@ a {
     color: white;
     padding: 8px 20px;
     font-size: 14px;
+ font-family: 'Poppins', sans-serif;
+
 }
 .top-content {
     max-width: 1320px;
@@ -73,6 +82,8 @@ a {
 .logo {
     font-size: 24px;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
 }
 .logo span {
     color: #2d8a57;
@@ -151,7 +162,9 @@ a {
             font-size: 24px;
             font-weight: bold;
             text-decoration: none;
-            letter-spacing: 1px;
+            font-family: "Playfair Display", serif;;
+            letter-spacing: -1px;
+            display: flex;
         }
         
         .zt-nav-link {
@@ -241,6 +254,7 @@ a {
     text-align: center;
     color: white;
     padding: 0 30px;
+    font-family: "Playfair Display", serif;;
 }
 
 .adventure-text {
@@ -248,9 +262,11 @@ a {
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 3rem;
     margin-bottom: 20px;
     letter-spacing: 2px;
+    font-weight: bold;
+    line-height: 1;
 }
 
 
@@ -316,6 +332,86 @@ a {
 footer {
     background-color: var(--dark-color);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .box {
+      width: 300px;
+      height: 200px;
+      background: tomato;
+      color: white;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      transition: all 0.6s ease;
+      opacity: 0;
+      transform: translateY(60px);
+    }
+
+    .fade-up {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .fade-left {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .fade-right {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .fade-down {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .hidden {
+      opacity: 0;
+    }
+
+    .from-left {
+      transform: translateX(-80px);
+    }
+
+    .from-right {
+      transform: translateX(80px);
+    }
+
+    .from-down {
+      transform: translateY(-60px);
+    }
+
+    .from-up {
+      transform: translateY(60px);
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive Design */
 @media (max-width: 992px) {
